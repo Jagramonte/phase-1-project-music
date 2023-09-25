@@ -1,0 +1,59 @@
+{
+    "Songs" : [
+        {
+            "id": 1,
+            "name": "I Love You Boy",
+            "artist": "Russ",
+            "video":"https://youtu.be/UHM165yhViE?si=jxCHakMho1qeYRkR"
+        },
+        {
+            "id": 2,
+            "name": "Love Yourz",
+            "artist": "J Cole",
+            "video":"https://youtu.be/ZPCAvzIFY-s?si=YdrIPI9gxVoaqP23"
+        },
+
+        {
+            "id": 3,
+            "name": "Like a Stone",
+            "artist": "Audio Slave",
+            "video":"https://youtu.be/7QU1nvuxaMA?si=h8gaw4D1Y4NIKQmF"
+        },
+
+        {
+            "id": 4,
+            "name": "My All",
+            "artist": "Mariah Carey",
+            "video": "https://youtu.be/mIhI23gBBPQ?si=io3ALrIHvReGXrlF"
+        },
+
+        {
+            "id": 5,
+            "name": "Peru",
+            "artist": "Fireboy DML & Ed Sherran",
+            "video": "https://youtu.be/pekzpzNCNDQ?si=NaAHL3JBweUNRScF"
+        },
+
+        {
+            "id": 6,
+            "name": "Need Me",
+            "artist": "Lil Tecca",
+            "video": "https://youtu.be/3K8jxMQXNoE?si=PvatucPXCGRGmtxW"
+        },
+        {
+            "id": 7,
+            "name": "This Is How We Do it",
+            "artist": "Montell Jordan",
+            "video": "https://youtu.be/0hiUuL5uTKc?si=eyYDNKMt_tJOYFRq"
+        },
+
+        {
+            "id": 8,
+            "name": "Return of the Mack",
+            "artist":"Mark Morison",
+            "video": "https://youtu.be/uB1D9wWxd2w?si=JchMuMlqJIfPkEcH"
+        }
+
+        
+    ]
+}
