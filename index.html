@@ -10,39 +10,57 @@
     </head>
 
     <body>
-        <h3 > Press "`" to Enjoy Dark Mode </h3>
-
-        <div id="detailsong">
-            <p id="detailsongname" class = "text"></p>
-            <img id="detailsongimage">
-            <video id="videourl"> </video>
-
+        
+        <div id="rightC">
+            <h3 > Press "`" to Enjoy Dark Mode </h3>
+            <img src="https://i.pinimg.com/originals/e8/f2/81/e8f28121eba19ac9b346358e4d7d66e4.gif"> 
         </div>
+        
 
-        
-        <h1 >Project Week Jams!</h1>
-        
-        <div> 
+        <div id="leftC"> 
             <h2 > Pick Your Jam!</h2>
             <ul>
                 <li id="songname">  </li>
             </ul>
+
+            <h4> Add Your Own Song to The Playlist</h4>
+            <form id="newsongform">
+            
+                <label for="arist">Artist:</label>
+                <input type="text" id="email" name="artist"><br><br>
+
+                <label for="songname">Song Name:</label>
+                <input type="text" id="name" name="songname"><br><br>
+    
+                <label for="albumcoverimage">Album Cover Image Url:</label><br>
+                <textarea id="message" name="image" rows="4" cols="50"></textarea><br><br>
+    
+                <input type="submit" value="Submit"> 
+        
+            </form>
+
         </div>
 
-        <form id="newsongform">
-            <label for="songname">Song Name:</label>
-            <input type="text" id="name" name="songname"><br><br>
-    
-            <label for="arist">Artist:</label>
-            <input type="text" id="email" name="artist"><br><br>
-    
-            <label for="albumcoverimage">Album Cover Image Url:</label><br>
-            <textarea id="message" name="image" rows="4" cols="50"></textarea><br><br>
-    
-            <input type="submit" value="Submit"> 
-        
-        </form>
+        <div id="middleC">
 
+            <h1 >Project Week Jams!</h1>
+
+            <div id="detailsong">
+                <img id="detailsongimage">
+
+                <div id='textContainer'>
+                    <p id="detailartist"> </p>
+                    <p id="detailsongname" class = "text"></p>
+                    <p id="clicklink"> </p>
+                </div>
+
+                
+
+            </div>
+
+            
+
+        </div>
     </body>
 
 </html>
